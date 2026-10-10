@@ -1,0 +1,24 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+backend/staticfiles/
+backend/media/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
